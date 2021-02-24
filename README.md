@@ -19,6 +19,7 @@ For reading about the insights generated with this project please read this [blo
 
 ## Problem Statement<a name="Statement"></a>
 Our goal for the project is to develop monthly sales forecasting model which can accurately predict sales for two months ahead in future i.e forecast horizon of two months. 
+
 We selected two months period as the forecast horizon as for automobile manufacturers most of decisions regarding supply chain(including components ordering for manufacturing the final product) are confirmed two months in advance of the target sales month.
 
 ## Files Description <a name="files"></a>
@@ -43,6 +44,7 @@ The files structure is arranged as below:
 
 ## Results Summary<a name="Summary"></a>
 Based on model comparison between univaraite ARIMA and multivariate SARIMAX as shown in below table, we can clearly see that ARIMA model performs better in all metrics. 
+
 This means that either the predictive information that we tried to include in our forecasting model was not relevant or our model was not able to learn the relationship between sales and precdictive variables.
 
 ![alt text](https://github.com/ankitaggarwal64/Time-Series-Sales-Forecasting-for-Agricultural-Equipments/blob/main/results_summary.JPG)
