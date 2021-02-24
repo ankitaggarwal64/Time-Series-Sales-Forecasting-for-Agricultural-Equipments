@@ -20,7 +20,7 @@ For reading about the insights generated with this project please read this [blo
 ## Problem Statement<a name="Statement"></a>
 Our goal for the project is to develop monthly sales forecasting model which can accurately predict sales for two months ahead in future i.e forecast horizon of two months. 
 
-We selected two months period as the forecast horizon as for automobile manufacturers most of decisions regarding supply chain(including components ordering for manufacturing the final product) are confirmed two months in advance of the target sales month.
+We selected two months period as the forecast horizon as for automobile manufacturers most of decisions regarding supply chain (including components ordering for manufacturing the final product) are confirmed two months in advance of the target sales month.
 
 ## Files Description <a name="files"></a>
 
@@ -32,7 +32,9 @@ The files structure is arranged as below:
 	- Feature_selection.ipynb: implementation of Boruta method for features selection
 	- Univariate_ARIMA.ipynb: implmentation of ARIMA for forecasting
 	- Multivariate_Regression_with_ARIMA.ipynb: implementation of SARIMAX for forecasting and results comparison
-	- results_summary : snapshot of model results comparison summary
+	- results_summary: snapshot of model results comparison summary
+	- combined_sales_ind.csv: consolidated data file for sales and indices
+	- Dictionary.xlsx: description of indices lables
 
 ## Dependencies <a name="Dependencies"></a>
 
