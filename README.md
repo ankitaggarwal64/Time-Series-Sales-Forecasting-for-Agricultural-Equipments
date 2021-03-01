@@ -34,7 +34,6 @@ The files structure is arranged as below:
 	- Multivariate_Regression_with_ARIMA.ipynb: implementation of SARIMAX for forecasting and results comparison
 	- results_summary: snapshot of model results comparison summary
 	- \data
-		- AG Industry_2017-02-13.xlsx: raw data file with sales of many products
 		- Dictionary.xlsx: description of indices lables
 		- combined_sales_ind.csv: consolidated data file for sales and indices
 		
